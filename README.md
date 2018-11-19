@@ -33,7 +33,7 @@ docker run \
         -e PUID=99 \
         -e PGID=100 \
         -e DEBUG=1 \
-        pducharme/unifi-video-controller
+        3lnin0/unifi-video-controller
 ```
 
 # Extra instructions for Docker for Windows
@@ -43,7 +43,7 @@ You can then specify a different directory for your actual video files, which do
 
 # Changing versions
 
-Starting with 3.9.0, releases are tagged. Using `pducharme/unifi-video-controller` or `pducharme/unifi-video-controller:latest` will get you the latest version. You can get a different version by using a specific tag, like `:3.9.0`, `:3.9.2` or `3.9.3`. If you update and have issues, you can quickly switch back to the previously working version.
+Starting with 3.9.0, releases are tagged. Using `3lnin0/unifi-video-controller` or `3lnin0/unifi-video-controller:latest` will get you the latest version. You can get a different version by using a specific tag, like `:3.9.0`, `:3.9.2` or `3.9.3`. If you update and have issues, you can quickly switch back to the previously working version.
 
 #  tmpfs mount error
 
