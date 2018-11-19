@@ -29,7 +29,7 @@ docker run \
         -p 7447:7447 \
         -v <data dir>:/var/lib/unifi-video \
         -v <videos dir>:/var/lib/unifi-video/videos \
-        -e TZ=America/Los_Angeles \
+        -e TZ=Europe/Berlin \
         -e PUID=99 \
         -e PGID=100 \
         -e DEBUG=1 \
