@@ -1,5 +1,5 @@
 FROM phusion/baseimage:0.11
-MAINTAINER pducharme@me.com
+MAINTAINER pa.f.werner@gmail.com
 
 # Version
 ENV version 3.9.11
