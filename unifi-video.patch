@@ -14,6 +14,7 @@
  	require_root
      update_limits
 -        ulimit -H -c 200
++        ulimit -c 200
          echo 0x10 > /proc/self/coredump_filter
  		if is_service_running "${PIDFILE}" >/dev/null; then
  			log_verbose "${NAME} is already running..."
@@ -22,6 +23,7 @@
  	stop)
   	require_root
 -        ulimit -H -c 200
++        ulimit -c 200
          
          log_verbose "Backing up ${DATADIR}/system.properties in ${BASEDIR}/etc/system.properties"
          cp -f "${DATADIR}/system.properties" "${BASEDIR}/etc/system.properties"
